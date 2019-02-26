@@ -1,0 +1,137 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('Images/bACK1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#bg{
+    background-image :url(Images/bACK1.jpg);
+
+}
+.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    animation: slide 30s infinite;
+}
+
+.content {
+    color: #fff;
+    width: 100%;
+    height: 80vh;
+    /*background-color:slategray;*/
+}
+
+.principal {
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+    .principal h1 {
+        color: black;
+        font-size: 70px;
+        margin: 20px;
+    }
+
+    .principal p {
+        color: mediumpurple;
+        font-size: 20px;
+    }
+    .principal c {
+        color: red;
+        font-size: 20px;
+    }
+
+
+@keyframes slide {
+    0% {
+        background-image: url(../Content/Images/car1.png);
+    }
+
+    20% {
+        background-image: url(../Content/Images/car1.png);
+    }
+
+    20.01% {
+        background-image: url(../Content/Images/car2.jpg);
+    }
+
+    40% {
+        background-image: url(../Content/Images/car2.jpg);
+    }
+
+    40.01% {
+        background-image: url(../Content/Images/car3.jpg);
+    }
+
+    60% {
+        background-image: url(../Content/Images/car3.jpg);
+    }
+
+    60.01% {
+        background-image: url(../Content/Images/car4.jpg);
+    }
+
+    80% {
+        background-image: url(../Content/Images/car4.jpg);
+    }
+
+    80.01% {
+        background-image: url(../Content/Images/car5.jpg);
+    }
+
+    100% {
+        background-image: url(../Content/Images/car5.jpg);
+    }
+}
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 240px;
+}
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}

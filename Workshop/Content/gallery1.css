@@ -1,0 +1,25 @@
+﻿body{
+    font-family:sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #15aaff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Monospace;
+    Margin: 30px 0 50px;
+}
+B.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+    B.gallery img {
+        width: 280px;
+        height: 250px;
+        transition:1s;
+    }
+B.gallery img:hover {
+ filter:grayscale(0);   
+        transform:scale(1.1);
+    }
